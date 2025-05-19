@@ -15,20 +15,3 @@ execution_config:
     path: "./supergraph.graphql"
 watch_config:
     enabled: true
-
-
-
-
-
-
-
-
-
-#storage:
-#  provider_id: "1"
-#storage:
-#   provider_id: "1"
-#   object_prefix: "cosmo"
-#  listen: 0.0.0.0:3002
-#  playground: true
-#  introspection: true

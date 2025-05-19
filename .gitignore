@@ -87,3 +87,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+run-router/local-static-schema/router
+run-router/local-static-schema/LICENSE

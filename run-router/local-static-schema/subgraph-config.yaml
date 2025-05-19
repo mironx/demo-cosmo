@@ -3,4 +3,4 @@ subgraphs:
   - name: employees
     routing_url: http://localhost:4001/graphql
     schema:
-      file: ./subgraph/schema.graphql
+      file: ../../subgraphs/hello/schema.graphql
