@@ -1,6 +1,10 @@
 version: 1
 subgraphs:
-  - name: employees
+  - name: hello
     routing_url: http://localhost:4001/graphql
     schema:
       file: ../../subgraphs/hello/schema.graphql
+  - name: value-definition
+    routing_url: http://localhost:4002/graphql
+    schema:
+      file: ../../subgraphs/value-definition/src/schema.graphql

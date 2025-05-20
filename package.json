@@ -1,0 +1,23 @@
+{
+  "name": "demo-cosmo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mironx/demo-cosmo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mironx/demo-cosmo/issues"
+  },
+  "homepage": "https://github.com/mironx/demo-cosmo#readme"
+}

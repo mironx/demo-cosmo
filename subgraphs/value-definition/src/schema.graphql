@@ -1,0 +1,10 @@
+type ValueDef {
+  id: ID!
+  name: String
+  type: String
+}
+
+type Query {
+  getValueDefById(id: ID!): ValueDef
+  listValueDefs: [ValueDef!]!
+}
