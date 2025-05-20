@@ -1,0 +1,17 @@
+version: "1"
+introspection_enabled: true
+playground:
+  enabled: true
+storage_providers:
+  file_system:
+    - id: "1"
+      path: ./
+persisted_operations:
+  storage:
+    provider_id: "1"
+    object_prefix: "cosmo"
+execution_config:
+  file:
+    path: "./supergraph.graphql"
+watch_config:
+    enabled: true
