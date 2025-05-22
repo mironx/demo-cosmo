@@ -11,7 +11,7 @@ const typeDefs = gql`
 
 const resolvers = {
   Query: {
-    hello: () => 'Hello from Employees!',
+    hello: () => 'Hello!',
   },
 };
 
@@ -22,5 +22,5 @@ const server = new ApolloServer({
 startStandaloneServer(server, {
   listen: { port: 4001 },
 }).then(({ url }) => {
-  console.log(`🚀 Subgraph "employees" running at ${url}`);
+  console.log(`🚀 Subgraph "Hello" running at ${url}`);
 });
