@@ -1,11 +1,11 @@
 {
-  "name": "echo",
+  "name": "value-definition",
   "version": "1.0.0",
-  "main": "server.js",
-  "type": "module",
+  "main": "src/server.ts",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+    "start": "ts-node src/server.ts"
   },
   "keywords": [],
   "author": "",
@@ -14,7 +14,14 @@
   "dependencies": {
     "@apollo/server": "^4.12.1",
     "@apollo/subgraph": "^2.10.2",
+    "@graphql-codegen/cli": "^5.0.6",
     "graphql": "^16.11.0",
     "graphql-tag": "^2.12.6"
+  },
+  "devDependencies": {
+    "@graphql-codegen/typescript-resolvers": "^4.5.1",
+    "@types/node": "^22.15.19",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
   }
 }
